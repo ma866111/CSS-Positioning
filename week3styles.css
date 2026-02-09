@@ -156,6 +156,7 @@ main > h1
 /* Fixed Articles. */
 #container article
 {
+  scroll-margin-top: calc(var(--header-h) + 20px);
   background: var(--bg-panel);
   width: 300px;
   padding: 18px;
@@ -204,4 +205,5 @@ footer
 {
   padding: 24px var(--gap) 40px;
   color: var(--text-muted);
+
 }
